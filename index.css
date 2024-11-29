@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+h3 {
+    font-family: Verdana;
+    font-size: 3.2rem;
+    color: EEEEEE;
+}
+
+p,
+button {
+    font-family: Cursed Timer ULiL;
+}
+
+
+.container {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    background-color: 1B244A;
+    max-width: 800px;
+    min-width: 700px;
+    height: 500px;
+    border-radius: 10px;
+    padding-bottom: 50px;
+}
+
+.container-scores,
+.container-functions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container-functions { 
+    margin-top: 30px;
+}
+
+.container-1,
+.container-2 {
+    text-align: center;
+}
+
+.container-1 {
+    margin-right: 60px;
+}
+
+.container-2 {
+    margin-left: 60px;
+}
+
+.home-points, 
+.guest-points {
+    margin: -25px 0 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: 080001;
+    color: F94F6D;
+    font-size: 120px;
+    height: 180px;
+    width: 210px;
+    border-radius: 10px;
+}
+
+.button-points {
+    width: 210px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-add {
+    background-color: 1B244A;
+    color: 9AABD8;
+    height: 55px;
+    width: 55px; 
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+.border-button-add{
+    border: solid #9AABD8 3px;
+    border-radius: 5px;
+}
+
+.button-new {
+    /* background-color: 1B244A; */
+    background-color: 080001;
+    color: F94F6D;
+    height: 60px;
+    width: 180px; 
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+.border-button-new{
+    border: solid #080001 3px;
+    border-radius: 5px;
+}
+
